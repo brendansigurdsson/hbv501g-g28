@@ -21,3 +21,8 @@
     background-color: #4CAF50;
     color: white;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+}

@@ -1,7 +1,0 @@
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/profileicon.json 
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json 
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion/Aatrox.json 
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/item.json 
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/mastery.json 
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/rune.json 
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/summoner.json 
