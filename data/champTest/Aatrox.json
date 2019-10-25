@@ -1,7 +1,7 @@
 {
     "type": "champion",
     "format": "standAloneComplex",
-    "version": "6.24.1",
+    "version": "9.21.1",
     "data": {
         "Aatrox": {
             "id": "Aatrox",
@@ -34,32 +34,44 @@
                     "id": "266002",
                     "num": 2,
                     "name": "Mecha Aatrox",
-                    "chromas": false
+                    "chromas": true
                 },
                 {
                     "id": "266003",
                     "num": 3,
                     "name": "Sea Hunter Aatrox",
                     "chromas": false
+                },
+                {
+                    "id": "266007",
+                    "num": 7,
+                    "name": "Blood Moon Aatrox",
+                    "chromas": false
+                },
+                {
+                    "id": "266008",
+                    "num": 8,
+                    "name": "Blood Moon Aatrox Prestige Edition",
+                    "chromas": false
                 }
             ],
-            "lore": "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's seemingly living blade drinks in their blood, empowering him and fueling his brutal, elegant campaign of slaughter.<br><br>The earliest tale of Aatrox is as old as recorded history. It tells of a war between two great factions remembered only as the Protectorate and the Magelords. Over time, the Magelords won a series of crushing victories, leaving them on the brink of obliterating their sworn enemy forever. On the day of their final confrontation, the Protectorate army found themselves outnumbered, exhausted, and poorly equipped. They braced for inevitable defeat.<br><br>Just when all hope seemed lost, Aatrox appeared among the ranks of the Protectorate. With but a few words, he urged the soldiers to fight to the last before throwing himself into battle. His presence inspired the desperate warriors. At first, they could only watch in awe as this unknown hero cleaved through their enemies, his body and blade moving in unison as if one being. Soon, the warriors found themselves imbued with a potent thirst for battle. They followed Aatrox into the fray, each fighting with the furious strength of ten until they had won a most unlikely victory.<br><br>Aatrox vanished after that battle, but the Protectorate army's newfound fury did not. Their surprising triumph led to many more until they were able to finally return home victorious. Their countrymen hailed them as heroes, but though they had saved their entire civilization from destruction, darkness lingered in the mind of each warrior. Something within them had changed. Over time, their memories of battle faded, only to be replaced with a grim revelation: their acts of heroism were, in fact, brutal atrocities committed by their own hands.<br><br>Tales like these appear among the myths of many cultures. If they are all to be believed, Aatrox's presence has changed the course of some of the most important wars in history. Though these stories remember him as a savior in dark times, Aatrox's true legacy may be a world filled with conflict and strife.<br><br>''Some fight for honor, some fight for glory. It matters only that you fight.''<br>-- Aatrox",
-            "blurb": "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's ...",
+            "lore": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.",
+            "blurb": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find...",
             "allytips": [
-                "Avoid engaging in a fight with low health unless your Blood Well is full so that you regain enough health to continue fighting.",
-                "Building Life Steal can be very potent on Aatrox to help compensate for his health costs.",
-                "Massacre is great at turning the tide of a battle. Make sure to use it at the right moment to maximize its benefits."
+                "Use Umbral Dash while casting The Darkin Blade to increase your chances of hitting the enemy.",
+                "Crowd Control abilities like Infernal Chains or your allies' immobilizing effects will help you set up The Darkin Blade.",
+                "Cast World Ender when you are sure you can force a fight."
             ],
             "enemytips": [
-                "When Aatrox takes fatal damage he is healed for the amount currently in his resource bar, landing a fatal blow on him while the resource bar is low will result in him reviving with a lower amount of Health.",
-                "When Aatrox casts Dark Flight towards your location, avoid being knocked up by moving away from the center of impact.",
-                "Aatrox is auto attack reliant for most of his damage and survivability, reducing his attack speed by purchasing Randuin's Omen or Frozen Heart can help reduce both of those components greatly."
+                "Aatrox's attacks are very telegraphed, so use the time to dodge the hit zones.",
+                "Aatrox's Infernal Chains are easier to exit when running towards the sides or at Aatrox.",
+                "Keep your distance when Aatrox uses his Ultimate to prevent him from reviving."
             ],
             "tags": [
                 "Fighter",
                 "Tank"
             ],
-            "partype": "BloodWell",
+            "partype": "Blood Well",
             "info": {
                 "attack": 8,
                 "defense": 4,
@@ -67,52 +79,54 @@
                 "difficulty": 4
             },
             "stats": {
-                "hp": 537.8,
-                "hpperlevel": 85.0,
-                "mp": 105.6,
-                "mpperlevel": 45.0,
-                "movespeed": 345.0,
-                "armor": 24.384,
-                "armorperlevel": 3.8,
+                "hp": 580,
+                "hpperlevel": 90,
+                "mp": 0,
+                "mpperlevel": 0,
+                "movespeed": 345,
+                "armor": 38,
+                "armorperlevel": 3.25,
                 "spellblock": 32.1,
                 "spellblockperlevel": 1.25,
-                "attackrange": 150.0,
-                "hpregen": 6.59,
-                "hpregenperlevel": 0.5,
-                "mpregen": 0.0,
-                "mpregenperlevel": 0.0,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 60.376,
-                "attackdamageperlevel": 3.2,
-                "attackspeedoffset": -0.04,
-                "attackspeedperlevel": 3.0
+                "attackrange": 175,
+                "hpregen": 3,
+                "hpregenperlevel": 1,
+                "mpregen": 0,
+                "mpregenperlevel": 0,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 60,
+                "attackdamageperlevel": 5,
+                "attackspeedperlevel": 2.5,
+                "attackspeed": 0.651
             },
             "spells": [
                 {
                     "id": "AatroxQ",
-                    "name": "Dark Flight",
-                    "description": "Aatrox takes flight and slams down at a targeted location, dealing damage and knocking up enemies at the center of impact.",
-                    "tooltip": "Aatrox takes flight and slams down at target location, dealing {{ e1 }}<span class=\"colorF88017\"> (+{{ a1 }})</span> physical damage and knocking up enemies at the center of impact for {{ e5 }} second.",
+                    "name": "The Darkin Blade",
+                    "description": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+                    "tooltip": "Aatrox slams his greatsword down, dealing <physicalDamage>{{ qdamage }} physical damage</physicalDamage>. The Darkin Blade may be re-cast 2 additional times, each one increasing in damage.<br /><br />Each strike can hit with the Edge, briefly knocking enemies up and dealing more damage.",
                     "leveltip": {
                         "label": [
+                            "Cooldown",
                             "Damage",
-                            "Cooldown"
+                            "Total AD Ratio"
                         ],
                         "effect": [
-                            "{{ e1 }} -> {{ e1NL }}",
-                            "{{ cooldown }} -> {{ cooldownnNL }}"
+                            "{{ cooldown }} -> {{ cooldownNL }}",
+                            "{{ qbasedamage }} -> {{ qbasedamageNL }}",
+                            "{{ qtotaladratio*100.000000 }}% -> {{ qtotaladrationl*100.000000 }}%"
                         ]
                     },
                     "maxrank": 5,
                     "cooldown": [
-                        16,
-                        15,
                         14,
-                        13,
-                        12
+                        12,
+                        10,
+                        8,
+                        6
                     ],
-                    "cooldownBurn": "16/15/14/13/12",
+                    "cooldownBurn": "14/12/10/8/6",
                     "cost": [
                         0,
                         0,
@@ -121,60 +135,95 @@
                         0
                     ],
                     "costBurn": "0",
+                    "datavalues": {},
                     "effect": [
                         null,
                         [
-                            70,
-                            115,
-                            160,
-                            205,
-                            250
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            22,
-                            20,
-                            18,
-                            16,
-                            14
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            10,
-                            10,
-                            10,
-                            10,
-                            10
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            225,
-                            225,
-                            225,
-                            225,
-                            225
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ]
                     ],
                     "effectBurn": [
                         null,
-                        "70/115/160/205/250",
-                        "22/20/18/16/14",
-                        "10",
-                        "225",
-                        "1"
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
                     ],
-                    "vars": [
-                        {
-                            "link": "bonusattackdamage",
-                            "coeff": 0.6,
-                            "key": "a1"
-                        }
-                    ],
-                    "costType": "pofcurrentHealth",
+                    "vars": [],
+                    "costType": "No Cost",
                     "maxammo": "-1",
                     "range": [
                         25000,
@@ -188,126 +237,7 @@
                         "full": "AatroxQ.png",
                         "sprite": "spell0.png",
                         "group": "spell",
-                        "x": 192,
-                        "y": 48,
-                        "w": 48,
-                        "h": 48
-                    },
-                    "resource": "{{ e3 }}% of current Health "
-                },
-                {
-                    "id": "AatroxW",
-                    "name": "Blood Thirst / Blood Price",
-                    "description": "While toggled on Aatrox deals bonus damage every third subsequent attack at the expense of his own Health. While toggled off Aatrox restores Health every third subsequent attack.",
-                    "tooltip": "<span class=\"colorFF9900\">Toggle Off:</span><span class=\"colore60000\"> Blood Thirst: </span>Every third attack, Aatrox restores {{ e3 }}<span class=\"colorF88017\"> (+{{ a1 }})</span> Health, increased by {{ e1 }}% ({{ f5 }}) when below half Health.<br><br><span class=\"colorFF9900\">Toggle On:</span><span class=\"color9900ff\"> Blood Price: </span>Every third attack, Aatrox deals {{ e2 }}<span class=\"colorF88017\"> (+{{ a2 }})</span> bonus physical damage and loses <span class=\"colorCC3300\">{{ f4 }}</span> Health.",
-                    "leveltip": {
-                        "label": [
-                            "Heal",
-                            "Bonus Damage"
-                        ],
-                        "effect": [
-                            "{{ e3 }} -> {{ e3NL }}",
-                            "{{ e2 }} -> {{ e2NL }}"
-                        ]
-                    },
-                    "maxrank": 5,
-                    "cooldown": [
-                        0.5,
-                        0.5,
-                        0.5,
-                        0.5,
-                        0.5
-                    ],
-                    "cooldownBurn": "0.5",
-                    "cost": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "costBurn": "0",
-                    "effect": [
-                        null,
-                        [
-                            200,
-                            200,
-                            200,
-                            200,
-                            200
-                        ],
-                        [
-                            60,
-                            95,
-                            130,
-                            165,
-                            200
-                        ],
-                        [
-                            20,
-                            25,
-                            30,
-                            35,
-                            40
-                        ],
-                        [
-                            25,
-                            25,
-                            25,
-                            25,
-                            25
-                        ],
-                        [
-                            50,
-                            50,
-                            50,
-                            50,
-                            50
-                        ],
-                        [
-                            0.5,
-                            0.5,
-                            0.5,
-                            0.5,
-                            0.5
-                        ]
-                    ],
-                    "effectBurn": [
-                        null,
-                        "200",
-                        "60/95/130/165/200",
-                        "20/25/30/35/40",
-                        "25",
-                        "50",
-                        "0.5"
-                    ],
-                    "vars": [
-                        {
-                            "link": "bonusattackdamage",
-                            "coeff": 0.25,
-                            "key": "a1"
-                        },
-                        {
-                            "link": "bonusattackdamage",
-                            "coeff": 1.0,
-                            "key": "a2"
-                        }
-                    ],
-                    "costType": "NoCost",
-                    "maxammo": "-1",
-                    "range": [
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "rangeBurn": "1",
-                    "image": {
-                        "full": "AatroxW.png",
-                        "sprite": "spell0.png",
-                        "group": "spell",
-                        "x": 240,
+                        "x": 288,
                         "y": 48,
                         "w": 48,
                         "h": 48
@@ -315,31 +245,29 @@
                     "resource": "No Cost"
                 },
                 {
-                    "id": "AatroxE",
-                    "name": "Blades of Torment",
-                    "description": "Aatrox unleashes the power of his blade, dealing damage to enemies hit and slowing them.",
-                    "tooltip": "Aatrox unleashes the power of his blade, dealing {{ e1 }} <span class=\"color99FF99\">(+{{ a1 }}) <span class=\"colorF88017\">(+{{ a2 }})</span></span> Magic Damage to enemies hit and slowing them by {{ e2 }}% for {{ e4 }} seconds.",
+                    "id": "AatroxW",
+                    "name": "Infernal Chains",
+                    "description": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+                    "tooltip": "Aatrox smashes the ground, dealing <physicalDamage>{{ wdamage }} physical damage</physicalDamage> to the first enemy hit and slowing by {{ wslowpercentage*-100 }}% for {{ wslowduration }}s.<br /><br />Champions or Large Monsters have {{ wslowduration }}s to leave the impact area or be dragged back and damaged again.",
                     "leveltip": {
                         "label": [
-                            "Damage",
-                            "Slow Duration",
-                            "Cooldown"
+                            "Cooldown",
+                            "Damage"
                         ],
                         "effect": [
-                            "{{ e1 }} -> {{ e1NL }}",
-                            "{{ e4 }} -> {{ e4NL }}",
-                            "{{ cooldown }} -> {{ cooldownnNL }}"
+                            "{{ cooldown }} -> {{ cooldownNL }}",
+                            "{{ wbasedamage }} -> {{ wbasedamageNL }}"
                         ]
                     },
                     "maxrank": 5,
                     "cooldown": [
-                        12,
-                        11,
-                        10,
-                        9,
-                        8
+                        26,
+                        23,
+                        20,
+                        17,
+                        14
                     ],
-                    "cooldownBurn": "12/11/10/9/8",
+                    "cooldownBurn": "26/23/20/17/14",
                     "cost": [
                         0,
                         0,
@@ -348,186 +276,106 @@
                         0
                     ],
                     "costBurn": "0",
+                    "datavalues": {},
                     "effect": [
                         null,
                         [
-                            75,
-                            110,
-                            145,
-                            180,
-                            215
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            40,
-                            40,
-                            40,
-                            40,
-                            40
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            15,
-                            15,
-                            15,
-                            15,
-                            15
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            1.75,
-                            2,
-                            2.25,
-                            2.5,
-                            2.75
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ],
                         [
-                            5,
-                            5,
-                            5,
-                            5,
-                            5
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
                         ]
                     ],
                     "effectBurn": [
                         null,
-                        "75/110/145/180/215",
-                        "40",
-                        "15",
-                        "1.75/2/2.25/2.5/2.75",
-                        "5"
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
                     ],
-                    "vars": [
-                        {
-                            "link": "spelldamage",
-                            "coeff": 0.6,
-                            "key": "a1"
-                        },
-                        {
-                            "link": "bonusattackdamage",
-                            "coeff": 0.6,
-                            "key": "a2"
-                        }
-                    ],
-                    "costType": "pofcurrentHealth",
+                    "vars": [],
+                    "costType": "No Cost",
                     "maxammo": "-1",
                     "range": [
-                        1000,
-                        1000,
-                        1000,
-                        1000,
-                        1000
+                        825,
+                        825,
+                        825,
+                        825,
+                        825
                     ],
-                    "rangeBurn": "1000",
+                    "rangeBurn": "825",
                     "image": {
-                        "full": "AatroxE.png",
-                        "sprite": "spell0.png",
-                        "group": "spell",
-                        "x": 288,
-                        "y": 48,
-                        "w": 48,
-                        "h": 48
-                    },
-                    "resource": "{{ e5 }}% of current Health "
-                },
-                {
-                    "id": "AatroxR",
-                    "name": "Massacre",
-                    "description": "Aatrox draws in the blood of his foes, damaging all nearby enemy champions around him and gaining increased Attack Speed and bonus Attack Range for a short duration.",
-                    "tooltip": "Aatrox draws in the blood of his foes, dealing {{ e2 }} <span class=\"color99FF99\">(+{{ a1 }})</span> magic damage to nearby enemy champions. Massacre fills Aatrox's Blood Well by {{ e7 }}% for each champion hit and grants him {{ e3 }}% attack speed and {{ e5 }} attack range for {{ e8 }} seconds.",
-                    "leveltip": {
-                        "label": [
-                            "Damage",
-                            "Attack Speed",
-                            "Cooldown"
-                        ],
-                        "effect": [
-                            "{{ e2 }} -> {{ e2NL }}",
-                            "{{ e3 }}% -> {{ e3NL }}%",
-                            "{{ cooldown }} -> {{ cooldownnNL }}"
-                        ]
-                    },
-                    "maxrank": 3,
-                    "cooldown": [
-                        100,
-                        85,
-                        70
-                    ],
-                    "cooldownBurn": "100/85/70",
-                    "cost": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "costBurn": "0",
-                    "effect": [
-                        null,
-                        [
-                            12,
-                            12,
-                            12
-                        ],
-                        [
-                            200,
-                            300,
-                            400
-                        ],
-                        [
-                            40,
-                            50,
-                            60
-                        ],
-                        [
-                            10,
-                            10,
-                            10
-                        ],
-                        [
-                            175,
-                            175,
-                            175
-                        ],
-                        [
-                            50,
-                            65,
-                            80
-                        ],
-                        [
-                            20,
-                            20,
-                            20
-                        ],
-                        [
-                            12,
-                            12,
-                            12
-                        ]
-                    ],
-                    "effectBurn": [
-                        null,
-                        "12",
-                        "200/300/400",
-                        "40/50/60",
-                        "10",
-                        "175",
-                        "50/65/80",
-                        "20",
-                        "12"
-                    ],
-                    "vars": [
-                        {
-                            "link": "spelldamage",
-                            "coeff": 1.0,
-                            "key": "a1"
-                        }
-                    ],
-                    "costType": "NoCost",
-                    "maxammo": "-1",
-                    "range": [
-                        550,
-                        550,
-                        550
-                    ],
-                    "rangeBurn": "550",
-                    "image": {
-                        "full": "AatroxR.png",
+                        "full": "AatroxW.png",
                         "sprite": "spell0.png",
                         "group": "spell",
                         "x": 336,
@@ -536,11 +384,271 @@
                         "h": 48
                     },
                     "resource": "No Cost"
+                },
+                {
+                    "id": "AatroxE",
+                    "name": "Umbral Dash",
+                    "description": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.",
+                    "tooltip": "<spellPassive>Passive:</spellPassive> Aatrox heals for {{ espellvamp }}% of damage he deals to champions.<br /><br /><spellActive>Active:</spellActive> Aatrox dashes in a direction.",
+                    "leveltip": {
+                        "label": [
+                            "Cooldown",
+                            "Healing %"
+                        ],
+                        "effect": [
+                            "{{ cooldown }} -> {{ cooldownNL }}",
+                            "{{ espellvamp }}% -> {{ espellvampNL }}%"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        9,
+                        8,
+                        7,
+                        6,
+                        5
+                    ],
+                    "cooldownBurn": "9/8/7/6/5",
+                    "cost": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "costBurn": "0",
+                    "datavalues": {},
+                    "effect": [
+                        null,
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "effectBurn": [
+                        null,
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": "No Cost",
+                    "maxammo": "1",
+                    "range": [
+                        25000,
+                        25000,
+                        25000,
+                        25000,
+                        25000
+                    ],
+                    "rangeBurn": "25000",
+                    "image": {
+                        "full": "AatroxE.png",
+                        "sprite": "spell0.png",
+                        "group": "spell",
+                        "x": 384,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "resource": "No Cost"
+                },
+                {
+                    "id": "AatroxR",
+                    "name": "World Ender",
+                    "description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and movement speed. If he gets a takedown, this effect is extended.",
+                    "tooltip": "Aatrox reveals his true demonic form for {{ rduration }} seconds. On activation, he fears nearby enemy minions and gains Movement Speed, decaying over the duration. While World Ender persists, he gains {{ rtotaladamp*100 }}% Attack Damage and increases self healing by {{ rhealingamp*100 }}%.<br /><br />On enemy champion takedown, World Ender is extended.",
+                    "leveltip": {
+                        "label": [
+                            "Total Attack Damage Increase",
+                            "Healing Increase",
+                            "Movement Speed",
+                            "Cooldown"
+                        ],
+                        "effect": [
+                            "{{ rtotaladamp*100.000000 }}% -> {{ rtotaladampnl*100.000000 }}%",
+                            "{{ rhealingamp*100.000000 }}% -> {{ rhealingampnl*100.000000 }}%",
+                            "{{ rmovementspeedbonus*100.000000 }}% -> {{ rmovementspeedbonusnl*100.000000 }}%",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 3,
+                    "cooldown": [
+                        120,
+                        100,
+                        80
+                    ],
+                    "cooldownBurn": "120/100/80",
+                    "cost": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "costBurn": "0",
+                    "datavalues": {},
+                    "effect": [
+                        null,
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "effectBurn": [
+                        null,
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": "No Cost",
+                    "maxammo": "-1",
+                    "range": [
+                        25000,
+                        25000,
+                        25000
+                    ],
+                    "rangeBurn": "25000",
+                    "image": {
+                        "full": "AatroxR.png",
+                        "sprite": "spell0.png",
+                        "group": "spell",
+                        "x": 432,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "resource": "No Cost"
                 }
             ],
             "passive": {
-                "name": "Blood Well",
-                "description": "When using an ability that costs Health, Aatrox stores the self-inflicted damage into the Blood Well. Upon taking fatal damage, Aatrox extracts the blood from the well and recovers it as Health over a brief duration. Additionally, Aatrox gains 1% Attack Speed for every 2% blood that is in the well.",
+                "name": "Deathbringer Stance",
+                "description": "Periodically, Aatrox's next basic attack deals bonus <physicalDamage>physical damage</physicalDamage> and heals him, based on the target's max health. ",
                 "image": {
                     "full": "Aatrox_Passive.png",
                     "sprite": "passive0.png",
@@ -554,13 +662,14 @@
             "recommended": [
                 {
                     "champion": "Aatrox",
-                    "title": "Map12",
+                    "title": "AatroxARAM",
                     "map": "HA",
                     "mode": "ARAM",
                     "type": "riot",
                     "customTag": "",
                     "sortrank": 0,
                     "extensionPage": false,
+                    "useObviousCheckmark": false,
                     "customPanel": null,
                     "blocks": [
                         {
@@ -571,20 +680,27 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
-                                {
-                                    "id": "2051",
-                                    "count": 1,
-                                    "hideCount": false
-                                },
                                 {
                                     "id": "1001",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "2031",
+                                    "id": "2051",
                                     "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 3,
                                     "hideCount": false
                                 }
                             ]
@@ -597,19 +713,26 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
-                                    "id": "3074",
+                                    "id": "3071",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3742",
+                                    "id": "3111",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3047",
+                                    "id": "3053",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -623,19 +746,26 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
-                                {
-                                    "id": "3072",
-                                    "count": 1,
-                                    "hideCount": false
-                                },
                                 {
                                     "id": "3812",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3046",
+                                    "id": "3156",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3161",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -649,19 +779,26 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
-                                {
-                                    "id": "3143",
-                                    "count": 1,
-                                    "hideCount": false
-                                },
                                 {
                                     "id": "3065",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3156",
+                                    "id": "3742",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3143",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -675,6 +812,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "2003",
@@ -693,11 +837,10 @@
                 {
                     "champion": "Aatrox",
                     "title": "AatroxCS",
-                    "map": "CS",
+                    "map": "CrystalScar",
                     "mode": "ODIN",
                     "type": "riot",
                     "customTag": "",
-                    "sortrank": 0,
                     "extensionPage": false,
                     "customPanel": null,
                     "blocks": [
@@ -842,6 +985,11 @@
                             "items": [
                                 {
                                     "id": "2003",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2055",
                                     "count": 1,
                                     "hideCount": true
                                 },
@@ -1480,13 +1628,14 @@
                 },
                 {
                     "champion": "Aatrox",
-                    "title": "AatroxSR",
-                    "map": "SR",
-                    "mode": "CLASSIC",
+                    "title": "AatroxSL",
+                    "map": "SL",
+                    "mode": "GAMEMODEX",
                     "type": "riot",
                     "customTag": "",
                     "sortrank": 0,
                     "extensionPage": false,
+                    "useObviousCheckmark": false,
                     "customPanel": null,
                     "blocks": [
                         {
@@ -1497,6 +1646,314 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "4202",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "startingjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "4101",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "early",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3044",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3067",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "earlyjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3133",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essential",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3047",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3071",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3812",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essentialjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "4102",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3047",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3071",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3053",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "offensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3053",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3026",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3748",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3143",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "consumables",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2140",
+                                    "count": 1,
+                                    "hideCount": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "champion": "Aatrox",
+                    "title": "AatroxSR",
+                    "map": "SR",
+                    "mode": "CLASSIC",
+                    "type": "riot",
+                    "customTag": "",
+                    "sortrank": 0,
+                    "extensionPage": false,
+                    "useObviousCheckmark": false,
+                    "customPanel": null,
+                    "blocks": [
+                        {
+                            "type": "starting",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "1055",
@@ -1523,9 +1980,16 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "SummonerSmite",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
-                                    "id": "1041",
+                                    "id": "1039",
                                     "count": 1,
                                     "hideCount": false
                                 },
@@ -1549,6 +2013,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "1001",
@@ -1556,12 +2027,12 @@
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3077",
+                                    "id": "3044",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "1053",
+                                    "id": "3067",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -1575,6 +2046,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "SummonerSmite",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "1001",
@@ -1587,7 +2065,7 @@
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "1043",
+                                    "id": "3133",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -1601,6 +2079,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "3047",
@@ -1608,7 +2093,7 @@
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3153",
+                                    "id": "3071",
                                     "count": 1,
                                     "hideCount": false
                                 },
@@ -1627,19 +2112,26 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "SummonerSmite",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
+                                {
+                                    "id": "1400",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
                                 {
                                     "id": "3047",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "1416",
-                                    "count": 1,
-                                    "hideCount": false
-                                },
-                                {
-                                    "id": "3153",
+                                    "id": "3071",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -1653,19 +2145,26 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
-                                    "id": "3078",
+                                    "id": "3053",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3074",
+                                    "id": "3026",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3071",
+                                    "id": "3748",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -1679,7 +2178,19 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
                                 {
                                     "id": "3143",
                                     "count": 1,
@@ -1689,11 +2200,6 @@
                                     "id": "3156",
                                     "count": 1,
                                     "hideCount": false
-                                },
-                                {
-                                    "id": "3065",
-                                    "count": 1,
-                                    "hideCount": false
                                 }
                             ]
                         },
@@ -1705,9 +2211,16 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "SummonerSmite",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
-                                    "id": "3074",
+                                    "id": "3053",
                                     "count": 1,
                                     "hideCount": false
                                 },
@@ -1717,7 +2230,7 @@
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3071",
+                                    "id": "3026",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -1729,8 +2242,15 @@
                             "recSteps": false,
                             "minSummonerLevel": -1,
                             "maxSummonerLevel": -1,
-                            "showIfSummonerSpell": "SummonerSmite",
+                            "showIfSummonerSpell": "TeleportCancel",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "3065",
@@ -1738,7 +2258,7 @@
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3156",
+                                    "id": "3742",
                                     "count": 1,
                                     "hideCount": false
                                 },
@@ -1757,14 +2277,16 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "2003",
-                                    "count": 1,
-                                    "hideCount": true
-                                },
-                                {
-                                    "id": "2055",
                                     "count": 1,
                                     "hideCount": true
                                 },
@@ -1786,6 +2308,7 @@
                     "customTag": "",
                     "sortrank": 0,
                     "extensionPage": false,
+                    "useObviousCheckmark": false,
                     "customPanel": null,
                     "blocks": [
                         {
@@ -1796,6 +2319,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "1001",
@@ -1822,6 +2352,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "SummonerSmite",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "1041",
@@ -1847,7 +2384,14 @@
                             "minSummonerLevel": -1,
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
-                            "hideIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "3047",
@@ -1855,7 +2399,40 @@
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3153",
+                                    "id": "3071",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3053",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essentialjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3706",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1001",
                                     "count": 1,
                                     "hideCount": false
                                 },
@@ -1874,19 +2451,26 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
-                                    "id": "3142",
+                                    "id": "3812",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3074",
+                                    "id": "3748",
                                     "count": 1,
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3072",
+                                    "id": "3156",
                                     "count": 1,
                                     "hideCount": false
                                 }
@@ -1900,6 +2484,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "3065",
@@ -1907,7 +2498,7 @@
                                     "hideCount": false
                                 },
                                 {
-                                    "id": "3156",
+                                    "id": "3742",
                                     "count": 1,
                                     "hideCount": false
                                 },
@@ -1926,6 +2517,13 @@
                             "maxSummonerLevel": -1,
                             "showIfSummonerSpell": "",
                             "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
                             "items": [
                                 {
                                     "id": "2003",
