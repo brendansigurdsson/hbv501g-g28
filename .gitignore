@@ -1,1 +1,4 @@
 debug.log
+
+/data/singleMatches/*
+!/data/singleMatches/.gitkeep 
