@@ -14,7 +14,7 @@ import time
 
 
 
-apiKey = 'RGAPI-8bd93535-8b05-4ba9-a19e-567d8c19f1fd'
+apiKey = ''
 
 date_time = '24.10.2019 05:00:00'
 pattern = '%d.%m.%Y %H:%M:%S'
@@ -26,7 +26,7 @@ AvailableIds = ['yO7VTZRB4S-_CJZi1RJfi_9xlRrGm8TSVUmFwFF8tFUiZHs']
 GamesDone = []
 MatchesDone = 0
 PeopleChecked = []
-Cycles = 100
+Cycles = 1000
 
 
 i = 0
